@@ -1,5 +1,5 @@
 // Exporta la dirección del contrato desplegado
-export const contractAddress = "0x14dc434F5D49ff94dDBFE03710947525eBfA37aE";
+export const contractAddress = "0xAEF7360a51Df6Eb8D0855097F09e3201a4780B3A";
 
 // Exporta el ABI del contrato inteligente, define la interfaz del contrato
 export const abi = [
