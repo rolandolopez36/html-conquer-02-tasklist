@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+  </head>
+  <body>
+    <h1>Lista de Tareas</h1>
+    <!-- Encabezado principal de la página -->
+
+    <div>
+      <button id="connectButton">Connect</button>
+      <!-- Botón para conectar MetaMask -->
+    </div>
+    <br />
+    <!-- Formulario para agregar nuevas tareas -->
+    <form id="taskForm">
+      <!-- Campo de texto para la descripción de la tarea -->
+      <input
+        type="text"
+        id="taskText"
+        placeholder="Descripción de la tarea"
+        required
+      />
+      <!-- Selección de la dificultad de la tarea -->
+      <select id="taskDifficulty">
+        <option value="0">Baja</option>
+        <option value="1">Media</option>
+        <option value="2">Alta</option>
+      </select>
+      <!-- Botón para enviar el formulario y agregar la tarea -->
+      <button type="submit">Agregar Tarea</button>
+    </form>
+
+    <!-- Contenedor donde se mostrarán las tareas -->
+    <div id="taskList"></div>
+
+    <!-- Enlace al archivo JavaScript que contiene la lógica de la aplicación -->
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
