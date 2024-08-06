@@ -1,5 +1,3 @@
-# README.md
-
 ## Lista de Tareas dApp
 
 Una aplicación web descentralizada (dApp) para gestionar una lista de tareas utilizando un contrato inteligente desplegado en la blockchain. Los usuarios pueden conectar sus billeteras MetaMask, agregar tareas con diferentes niveles de dificultad y ver todas las tareas agregadas.
@@ -21,8 +19,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/rolandolopez36/html-conquer-02-tasklist.git
+cd html-conquer-02-tasklist
 ```
 
 Asegúrate de tener el archivo `constants.js` configurado correctamente con la dirección del contrato y el ABI.
